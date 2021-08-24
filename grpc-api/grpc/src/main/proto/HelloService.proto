@@ -1,0 +1,24 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.example.grpc;
+
+enum Job {
+  STUDENT = 0;
+  TEACHER = 1;
+}
+
+message HelloRequest {
+  string name = 1;
+  int32 age = 2;
+  Job job = 3;
+  repeated string hobbies = 4;
+}
+
+message HelloResponse {
+  string greeting = 1;
+}
+
+service HelloService {
+  rpc hello(HelloRequest) returns (HelloResponse);
+}
+

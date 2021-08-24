@@ -1,0 +1,14 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import org.example.LeftMenuController?>
+<?import org.example.TopMenuController?>
+<fx:root type="BorderPane" xmlns:fx="http://javafx.com/fxml" prefHeight="600" prefWidth="1000">
+    <top>
+        <TopMenuController/>
+    </top>
+    <left>
+        <LeftMenuController/>
+    </left>
+    <center>
+
+    </center>
+</fx:root>

@@ -1,0 +1,6 @@
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<fx:root type="VBox" spacing="10" alignment="TOP_CENTER" xmlns:fx="http://javafx.com/fxml" styleClass="left-menu">
+    <Button fx:id="create" text="CREATE"/>
+    <Button fx:id="search" text="SEARCH"/>
+</fx:root>
